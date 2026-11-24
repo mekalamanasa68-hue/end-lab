@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eaf2f8;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #1a237e;
+  margin-bottom: 30px;
+}
+
+.student-card {
+  background: white;
+  width: 320px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  border-left: 5px solid #3949ab;
+}
+
+.student-card h2 {
+  color: #3949ab;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.student-card p {
+  font-size: 16px;
+  margin: 15px 0;
+  color: #333;
+}
